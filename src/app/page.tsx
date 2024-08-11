@@ -67,28 +67,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          {/*
           
-            <ul className="{`${isMenuOpen ? 'block' : 'hidden'} lg:flex flex-col lg:flex-row lg:space-x-20 mt-4 lg:mt-0`}">
-              <li><Link href="#" className="hover:text-blue">Home</Link></li>
-              <li><Link href="#members" className="hover:text-blue">Members</Link></li>
-              <li><Link href="#achievements" className="hover:text-blue">Achievements</Link></li>
-              <li><Link href="#contact" className="hover:text-blue">Contact</Link></li>
-            </ul>
-          </nav>
-        </div>
-        <div className="flex flex-col h-5/6	 items-center justify-between px-4 md:px-8 lg:px-20">
-          <div className="flex flex-col w-full  max-w-lg text-center bg-black/60 lg:bg-black/0 py-4 rounded-lg my-auto">
-            <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold mb-4">OSITOS GAMING</h1>
-            <h2 className="text-black text-lg md:text-xl m-1">A competitive LAN team from League of Legends since 2019.</h2>
-            <button
-              className="bg-blue text-white font-thin px-6 py-2 rounded-lg w-1/2 max-w-xs mx-auto mt-5 hover:bg-white hover:text-black"
-              onClick={() => router.push("#contact")}
-            >
-              Scrim with us!
-            </button>
-          </div>
-              */}
         </div>
 
       </section>
