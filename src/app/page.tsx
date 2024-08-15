@@ -58,7 +58,7 @@ export default function Home() {
           <div className="flex flex-col h-5/6	 items-center justify-between px-4 md:px-8 lg:px-20">
             <div className="flex flex-col w-full  max-w-lg text-center bg-black/60 lg:bg-black/0 py-4 rounded-lg my-auto">
               <h1 className="text-black text-4xl md:text-5xl lg:text-6xl font-bold mb-4">OSITOS GAMING</h1>
-              <h2 className="text-black text-lg md:text-xl m-1">A competitive LAN team from League of Legends since 2019.</h2>
+              <h2 className="text-black text-lg md:text-xl m-1">A competitive team from the LAN region of League of Legends since 2019</h2>
               <button
                 className="bg-blue text-white font-thin px-6 py-2 rounded-lg w-1/2 max-w-xs mx-auto mt-5 hover:bg-opacity-85"
                 onClick={() => router.push("#contact")}

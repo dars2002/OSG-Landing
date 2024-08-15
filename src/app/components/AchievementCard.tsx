@@ -17,7 +17,7 @@ export const AchievementCard:React.FC<AchievementCardProps> = ({image,title,desc
             height={200}
             className=" responsive flex rounded-sm border-grey shadow-lg w-full"/>
         </div>
-        <h2 className="text-black px-6 mb-4 font-bold">{title}</h2>
+        <h2 className=" text-center text-black px-6 mb-4 mt-2 font-bold">{title}</h2>
         <p className="text-black px-6 mb-4">{description}</p>
       </div>
     )
